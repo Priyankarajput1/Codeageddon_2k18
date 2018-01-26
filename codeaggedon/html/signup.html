@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Sign Up</title>
+  <meta  charset="utf-8" name="viewport" content="width=device-width" scale="initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="icon" type="images/jpg" href="../images/logo3.png">
+  <link rel="stylesheet" type="text/css" href="../css/m2.css">
+</head>
+<body>
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+  	<div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span> 
+      </button>
+      <img src="../images/logo3.png" alt="Logo" class="navbar-brand"><a class="navbar-brand" href="http://jssmmil.in/" target="_blank">MMIL</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+    <ul class="nav navbar-nav">
+      <li><a href="home.html">Home</a></li>
+          <li><a href="q1.html">Dashboard</a></li>
+      <li><a href="leaderboard.html">Leaderboard</a></li>
+    </ul>
+    <ul class="nav navbar-nav navbar-right">
+      <li class="active"><a href="signup.html"><span class="glyphicon glyphicon-user" data-toggle="modal" data-target="#mymodal"></span> Sign Up</a></li>
+      <li><a href="login.html"><span class="glyphicon glyphicon-log-in" data-toggle="modal" data-target="#mymodal"></span> Log In</a></li>
+    </ul>
+  </div>
+</div>
+</nav>
+<div class="container col-md-offset-4 col-md-4 boxy" style="margin-top:70px;" >
+	<br>
+    <div class="container-fluid" style="margin: auto;width: 85%;">
+    	<img src="../images/key.png" width="23%" height="20%" >
+    	<h1 style="display: inline; font-size: 300%;" align="center">&nbsp;&nbsp;Sign Up!</h1>
+    </div>
+    <br>
+    <div class="jumbotron">
+	 <form class="form-horizontal" method="post">
+          <div class="form-group form-inline">
+          <label class="control-label col-sm-4">First Name:</label>
+            <input class="form-control" type="text" name="name" placeholder="Enter Firstname">
+          </div>
+          <div class="form-group form-inline">
+          <label class="control-label col-sm-4">Last Name:</label>
+            <input class="form-control" type="text" name="lastname" placeholder="Enter Lastname">
+          </div>
+          <div class="form-group form-inline">
+          <label class="control-label col-sm-4">Email:</label>
+            <input class="form-control" type="email" name="email" placeholder="Enter Email">
+          </div>
+          <div class="form-group form-inline">
+          <label class="control-label col-sm-4">Password:</label>
+            <input class="form-control" type="password" name="password" placeholder="Enter Password">
+          </div>
+          <div class="form-group">
+          <div class="checkbox" align="center">
+          <label><input type="checkbox" name="rememberme">Remember Me</label>
+          </div>
+          </div>
+          <br>
+          <button class="btn btn-primary btn-block" type="submit">Sign Up</button>
+        </form>
+        </div>
+</div>
+<footer class="footer">
+    <div class="text-center">
+    	<span>© Copyright 2018</span>
+    </div>
+</footer>
+</body>
+</html>

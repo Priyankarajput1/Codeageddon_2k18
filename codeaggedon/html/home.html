@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Home</title>
+	<meta  charset="utf-8" name="viewport" content="width=device-width" scale="initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="icon" type="images/jpg" href="../images/logo3.png">
+  <link rel="stylesheet" type="text/css" href="../css/m2.css">
+<style>
+  html, body {
+  width: 100%;  
+  height: 100%;
+  background: -webkit-radial-gradient(yellow, green);
+  background: radial-gradient(yellow, green);
+  overflow: hidden;
+  -webkit-font-smoothing: antialiased;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  height: 100px;
+}
+
+h1 span {
+  position: relative;
+  top: 20px;
+  display: inline-block;
+  animation: bounce .3s ease infinite alternate;
+  font-family: 'Titan One', cursive;
+  font-size: 80px;
+  color: #FFF;
+  text-shadow: 0 1px 0 #CCC,
+               0 2px 0 #CCC,
+               0 3px 0 #CCC,
+               0 4px 0 #CCC,
+               0 5px 0 #CCC,
+               0 6px 0 transparent,
+               0 7px 0 transparent,
+               0 8px 0 transparent,
+               0 9px 0 transparent,
+               0 10px 10px rgba(0, 0, 0, .4);
+}
+
+h1 span:nth-child(2) { animation-delay: .1s; }
+h1 span:nth-child(3) { animation-delay: .2s; }
+h1 span:nth-child(4) { animation-delay: .3s; }
+h1 span:nth-child(5) { animation-delay: .4s; }
+h1 span:nth-child(6) { animation-delay: .5s; }
+h1 span:nth-child(7) { animation-delay: .6s; }
+h1 span:nth-child(8) { animation-delay: .7s; }
+h1 span:nth-child(9) { animation-delay: .8s; }
+h1 span:nth-child(10) { animation-delay: .9s; }
+h1 span:nth-child(11) { animation-delay: .10s; }
+
+@keyframes bounce {
+  100% {
+    top: -20px;
+    text-shadow: 0 1px 0 #CCC,
+                 0 2px 0 #CCC,
+                 0 3px 0 #CCC,
+                 0 4px 0 #CCC,
+                 0 5px 0 #CCC,
+                 0 6px 0 #CCC,
+                 0 7px 0 #CCC,
+                 0 8px 0 #CCC,
+                 0 9px 0 #CCC,
+                 0 50px 25px rgba(0, 0, 0, .2);
+  }
+}
+/* Google Fonts */
+@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
+
+/* Global */
+.line-1{
+    position: absolute;
+    top: 55%;  
+    width: 40em;
+    font-family: 'Titan One', cursive;
+    font-size: 180%;
+    text-align: center;
+    white-space: nowrap;
+    color: white;
+    overflow: hidden;
+    transform: translateY(-50%);
+    display: inline;   
+}
+.line-2{
+    position: absolute;
+    top: 60%;  
+    width: 45em;
+    font-family: 'Titan One', cursive;
+    font-size: 180%;
+    text-align: center;
+    white-space: nowrap;
+    color: white;
+    overflow: hidden;
+    transform: translateY(-50%);
+    display: inline;   
+}
+.line-3{
+    position: absolute;
+    top: 65%;  
+    width: 45em;
+    font-family: 'Titan One', cursive;
+    font-size: 180%;
+    text-align: center;
+    white-space: nowrap;
+    color: white;
+    overflow: hidden;
+    transform: translateY(-50%);
+    display: inline;
+}
+
+.line-4{
+    position: absolute;
+    top: 70%;  
+    width: 45em;
+    font-family: 'Titan One', cursive;
+    font-size: 180%;
+    text-align: center;
+    white-space: nowrap;
+    color: white;
+    overflow: hidden;
+    transform: translateY(-50%);
+    display: inline;
+}
+
+/* Animation */
+.anim-typewriter{
+  animation: typewriter 3s steps(500) 1s 1 normal both,
+             blinkTextCursor 500ms steps(500) infinite normal;
+}
+@keyframes typewriter{
+  from{width: 0;}
+  to{width: 45em;}
+}
+@keyframes blinkTextCursor{
+  from{border-right-color: rgba(255,255,255,.75);}
+  to{border-right-color: transparent;}
+}
+
+</style>
+</head>
+<body>
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span> 
+      </button>
+      <img src="../images/logo3.png" alt="Logo" class="navbar-brand"><a class="navbar-brand" href="http://jssmmil.in/" target="_blank">MMIL</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="home.html">Home</a></li>
+          <li><a href="q1.html">Dashboard</a></li>
+      <li><a href="leaderboard.html">Leaderboard</a></li>
+    </ul>
+    <ul class="nav navbar-nav navbar-right">
+      <li><a href="signup.html"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+      <li><a href="login.html"><span class="glyphicon glyphicon-log-in"></span> Log In</a></li>
+    </ul>
+  </div>
+</div>
+</nav>
+<h1 style="padding-bottom: 30%;">
+  <span>C</span>
+  <span><img src="../images/poke.png""></span>
+  <span>D</span>
+  <span>E</span>
+  <span>A</span>
+  <span>G</span>
+  <span>G</span>
+  <span>E</span>
+  <span>D</span>
+  <span><img src="../images/pais.png""></span>
+  <span>N</span>
+</h1>
+<p class="line-1 anim-typewriter">It is an online challenge conducted to check the knowledge of participants in One of the most</p>
+<p class="line-2 anim-typewriter">popular language these days.In this participants will be given problems\puzzles that they have</p>
+<p class="line-3 anim-typewriter">to solve through coding. Only the right answer will reveal the next puzzle.Participants answering</p>
+ <p class="line-4 anim-typewriter">maximum number of questions correctly will be winner.</p>
+<footer class="footer">
+    <div class="text-center">
+      <span>© Copyright 2018</span>
+    </div>
+</footer>
+</body>
+</html>
